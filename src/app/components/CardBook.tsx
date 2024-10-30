@@ -122,24 +122,28 @@ export default function CardBook({
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="relative w-full h-full flex flex-row justify-center items-center gap-x-6">
-            <button
-              className="text-4xl font-semibold text-white h-min w-fit hover:scale-125"
-              onClick={previous}
-            >
-              {"<"}
-            </button>
+            {images.length > 1 && (
+              <button
+                className="text-4xl font-semibold text-white h-min w-fit hover:scale-125"
+                onClick={previous}
+              >
+                {"<"}
+              </button>
+            )}
             <Image
               loading="lazy"
               className=" w-auto max-h-[95vh] max-w-[73vw]"
               src={selectedImage}
               alt="Libro en venta"
             />
-            <button
-              className="text-4xl font-semibold text-white h-min hover:scale-125"
-              onClick={next}
-            >
-              {">"}
-            </button>
+            {images.length > 1 && (
+              <button
+                className="text-4xl font-semibold text-white h-min hover:scale-125"
+                onClick={next}
+              >
+                {">"}
+              </button>
+            )}
             <button
               className="absolute top-4 right-4 text-4xl font-semibold text-white hover:scale-125"
               onClick={closeModal}
