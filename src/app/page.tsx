@@ -50,6 +50,7 @@ export default function Home() {
           oldPrice={book.oldPrice}
           newPrice={book.newPrice}
           discount={book.discount}
+          sold={book.sold}
         />
       ))}
     </section>

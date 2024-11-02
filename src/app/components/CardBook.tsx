@@ -10,6 +10,7 @@ export default function CardBook({
   oldPrice,
   newPrice,
   discount,
+  sold,
 }: {
   title: string;
   author: string;
@@ -17,6 +18,7 @@ export default function CardBook({
   oldPrice: string;
   newPrice: string;
   discount: string;
+  sold?: boolean;
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const openModal = () => {
@@ -63,7 +65,15 @@ export default function CardBook({
 
   return (
     <>
-      <article className="w-full hidden  lg:flex flex-col md:flex-row justify-between border-b-2 pb-1 mt-2">
+      <article className="relative w-full hidden lg:flex flex-col md:flex-row justify-between items-center border-b-2 pb-1 mt-2">
+        {sold && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-full h-1 bg-red-600 z-20 opacity-60"></div>
+            <p className="absolute text-white text-center left-1/2 -translate-x-1/2 font-bold z-30 bg-red-400 rounded-lg px-2 py-1">
+              No Disponible
+            </p>
+          </div>
+        )}
         <p className="w-3/12">{title}</p>
         <p className="w-2/12">{author}</p>
         <p className="w-1/12 line-through text-center">$ {oldPrice}</p>
@@ -90,7 +100,16 @@ export default function CardBook({
           </Link>
         </div>
       </article>
-      <article className="w-full max-w-96 mb-4 flex lg:hidden flex-col border-2 border-green-400 bg-green-50 gap-y-4 py-2 rounded-md">
+      <article
+        className={`relative w-full max-w-96 mb-4 flex lg:hidden flex-col border-2  gap-y-4 py-2 rounded-md ${
+          sold ? "border-red-400 bg-red-50" : "border-green-400 bg-green-50"
+        }`}
+      >
+        {sold && (
+          <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 -rotate-45 text-center text-3xl text-white bg-red-400 rounded-lg px-2 py-1 bg-opacity-90">
+            No Disponible
+          </p>
+        )}
         <p className="text-center font-semibold text-2xl">{title}</p>
         <p className="text-center text-lg">{author}</p>
         <p className="line-through text-center">Precio Nuevo: $ {oldPrice}</p>

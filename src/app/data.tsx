@@ -187,6 +187,7 @@ export const books = [
     discount: "50",
     newPrice: "6.250",
     imagesArray: [shaparicion1, shaparicion2],
+    sold: true,
   },
   {
     title: "Memorias de Sherlock Holmes",
@@ -203,6 +204,7 @@ export const books = [
     discount: "92",
     newPrice: "1.008",
     imagesArray: [sharchivo1, sharchivo2],
+    sold: true,
   },
   {
     title: "Aventuras de Sherlock Holmes",
@@ -211,6 +213,7 @@ export const books = [
     discount: "55",
     newPrice: "2.025",
     imagesArray: [shaventuras1, shaventuras2],
+    sold: true,
   },
   {
     title: "Estudio en escarlata",
@@ -235,6 +238,7 @@ export const books = [
     discount: "55",
     newPrice: "5.166",
     imagesArray: [shvalleerror],
+    sold: true,
   },
   {
     title: "El símbolo perdido",
@@ -243,6 +247,7 @@ export const books = [
     discount: "60",
     newPrice: "12.800",
     imagesArray: [simbolo2, simbolo1],
+    sold: true,
   },
   {
     title: "La conspiración",
@@ -291,6 +296,7 @@ export const books = [
     discount: "40",
     newPrice: "9.600",
     imagesArray: [cuentosdehorror1, cuentosdehorror2, cuentosdehorror3],
+    sold: true,
   },
   {
     title: "Las venas abiertas de América latina",
@@ -475,6 +481,7 @@ export const books = [
     discount: "50",
     newPrice: "15.000",
     imagesArray: [historialoco1, historialoco2],
+    sold: true,
   },
   {
     title: "Un asunto pendiente",
@@ -491,6 +498,7 @@ export const books = [
     discount: "55",
     newPrice: "9.900",
     imagesArray: [psicoanalista1, psicoanalista2, psicoanalista3],
+    sold: true,
   },
   {
     title: "El Aleph",
@@ -587,6 +595,7 @@ export const books = [
     discount: "55",
     newPrice: "11.250",
     imagesArray: [lisey1, lisey2],
+    sold: true,
   },
   {
     title: "Cementerio de animales",
@@ -635,6 +644,7 @@ export const books = [
     discount: "35",
     newPrice: "11.050",
     imagesArray: [botones],
+    sold: true,
   },
   {
     title: "It",
