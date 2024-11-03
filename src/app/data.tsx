@@ -321,6 +321,7 @@ export const books = [
     discount: "40",
     newPrice: "5.520",
     imagesArray: [metamorfosis],
+    sold: true,
   },
   {
     title: "Así habló Zaratustra",
@@ -507,6 +508,7 @@ export const books = [
     discount: "40",
     newPrice: "8.400",
     imagesArray: [aleph1, aleph2],
+    sold: true,
   },
   {
     title: "Historias de cronopios y de famas",
@@ -515,6 +517,7 @@ export const books = [
     discount: "30",
     newPrice: "7.140",
     imagesArray: [cronopios],
+    sold: true,
   },
   {
     title: "Bestiario",
@@ -604,6 +607,7 @@ export const books = [
     discount: "40",
     newPrice: "13.800",
     imagesArray: [cementerio1, cementerio2],
+    sold: true,
   },
   {
     title: "Doctor sueño",
@@ -612,6 +616,7 @@ export const books = [
     discount: "40",
     newPrice: "13.200",
     imagesArray: [doctorsueno1, doctorsueno2, doctorsueno3],
+    sold: true,
   },
   {
     title: "El misterio de Salems Lot",
@@ -628,6 +633,7 @@ export const books = [
     discount: "38",
     newPrice: "17.732",
     imagesArray: [resplandor1, resplandor2, resplandor3],
+    sold: true,
   },
   {
     title: "Buick 8",
