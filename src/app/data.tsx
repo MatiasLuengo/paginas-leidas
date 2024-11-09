@@ -155,6 +155,7 @@ export const books = [
     discount: "30",
     newPrice: "5.300",
     imagesArray: [extranjero],
+    sold: true,
   },
   {
     title: "Un mundo feliz",
@@ -163,6 +164,7 @@ export const books = [
     discount: "40",
     newPrice: "9.540",
     imagesArray: [mundofeliz],
+    sold: true,
   },
   {
     title: "Su última reverencia",
@@ -247,7 +249,6 @@ export const books = [
     discount: "60",
     newPrice: "12.800",
     imagesArray: [simbolo2, simbolo1],
-    sold: true,
   },
   {
     title: "La conspiración",
@@ -313,6 +314,7 @@ export const books = [
     discount: "45",
     newPrice: "3.850",
     imagesArray: [consideraciones],
+    sold: true,
   },
   {
     title: "La metamorfosis",
@@ -330,6 +332,7 @@ export const books = [
     discount: "40",
     newPrice: "2.940",
     imagesArray: [zara],
+    sold: true,
   },
   {
     title: "Humano demasiado humano",
@@ -338,6 +341,7 @@ export const books = [
     discount: "35",
     newPrice: "2.925",
     imagesArray: [demasiadohumano1, demasiadohumano2],
+    sold: true,
   },
   {
     title: "El duelo",
@@ -346,6 +350,7 @@ export const books = [
     discount: "40",
     newPrice: "13.200",
     imagesArray: [duelo1, duelo2],
+    sold: true,
   },
   {
     title: "1984",
@@ -354,6 +359,7 @@ export const books = [
     discount: "35",
     newPrice: "7.800",
     imagesArray: [l19841, l19842, l19843],
+    sold: true,
   },
   {
     title: "Rebelión en la granja",
@@ -362,6 +368,7 @@ export const books = [
     discount: "30",
     newPrice: "6.510",
     imagesArray: [rebelion],
+    sold: true,
   },
   {
     title: "Los viajes de Tuf",
@@ -482,7 +489,6 @@ export const books = [
     discount: "50",
     newPrice: "15.000",
     imagesArray: [historialoco1, historialoco2],
-    sold: true,
   },
   {
     title: "Un asunto pendiente",
@@ -499,7 +505,6 @@ export const books = [
     discount: "55",
     newPrice: "9.900",
     imagesArray: [psicoanalista1, psicoanalista2, psicoanalista3],
-    sold: true,
   },
   {
     title: "El Aleph",
@@ -526,6 +531,7 @@ export const books = [
     discount: "34",
     newPrice: "9.900",
     imagesArray: [bestiario],
+    sold: true,
   },
   {
     title: "Dos veces junio",
@@ -574,6 +580,7 @@ export const books = [
     discount: "45",
     newPrice: "2.475",
     imagesArray: [doctorymr1, doctorymr2],
+    sold: true,
   },
   {
     title: "Dizna mensaje desde el pasado",
@@ -625,6 +632,7 @@ export const books = [
     discount: "30",
     newPrice: "15.400",
     imagesArray: [salems1, salems2, salems3],
+    sold: true,
   },
   {
     title: "El resplandor",
@@ -667,6 +675,7 @@ export const books = [
     discount: "35",
     newPrice: "15.925",
     imagesArray: [largamarcha1, largamarcha2],
+    sold: true,
   },
   {
     title: "Mr. Mercedes",
@@ -707,5 +716,6 @@ export const books = [
     discount: "94",
     newPrice: "1.998",
     imagesArray: [lavoz1, lavoz2],
+    sold: true,
   },
 ];
